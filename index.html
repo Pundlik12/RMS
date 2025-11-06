@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RMS-Home</title>
+  <link rel="stylesheet" href="./css/app.css" />
+  <!-- <style>
+    body { margin: 0; font-family: sans-serif; background: #f4f4f4; }
+    nav {
+      background: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+    }
+    nav h1 { margin: 0; font-size: 1.2rem; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 4px;
+    }
+    nav ul li a:hover {
+      background: #555;
+    }
+    .content {
+      padding: 2rem;
+      text-align: center;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 5px #ccc;
+      text-align: center;
+    }
+    .card a {
+      display: block;
+      margin-top: 1rem;
+      padding: 0.5rem;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .card a:hover {
+      background: #555;
+    }
+  </style> -->
+</head>
+<body>
+  <nav>
+    <h1>🍴 Restaurant Management System</h1>
+    <ul>
+      <li><a href="dashboard.html">Home</a></li>
+      <li><a href="tables.html">Tables</a></li>
+      <li><a href="items.html">Items</a></li>
+      <li><a href="orders.html">Orders</a></li>
+      <!-- <li><a href="add-items.html?tableId=abc123">Add Items</a></li>
+      <li><a href="generate-bill.html">Generate Bill</a></li> -->
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h2>📊 Admin Dashboard</h2>
+    <p>Manage tables, items, orders, and billing from one place.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>🪑 Table Master</h3>
+        <p>Manage table names, capacity, and status.</p>
+        <a href="tables.html">Open</a>
+      </div>
+      <div class="card">
+        <h3>🍽️ Items Master</h3>
+        <p>Add and edit menu items with categories and prices.</p>
+        <a href="items.html">Open</a>
+      </div>
+      <div class="card">
+        <h3>📋 Orders</h3>
+        <p>View live table status and generate bills.</p>
+        <a href="orders.html">Open</a>
+      </div>
+      <!-- <div class="card">
+        <h3>➕ Add Items</h3>
+        <p>Add items to a selected table's order.</p>
+        <a href="add-items.html?tableId=abc123">Open</a>
+      </div>
+      <div class="card">
+        <h3>💳 Generate Bill</h3>
+        <p>Finalize orders and reset table status.</p>
+        <a href="generate-bill.html">Open</a>
+      </div> -->
+    </div>
+  </div>
+</body>
+</html>
